@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Document</title>
+
+    <style>
+  .image-card {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+
+  .image-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+
+  .image-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  }
+
+  .image-card:hover img {
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 768px) {
+    .col-md-4 {
+      margin-bottom: 20px;
+    }
+  }
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link and background color on hover */
+li a:hover {
+  background-color: #555555;
+  color: white;
+}
+</style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Show & Tells</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+              >Services <span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#"
+              ></span> Sign Up</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              > </span> Login</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Hello, world!</h1>
+            <p>Contents ...</p>
+            <p>
+                <a class="btn btn-primary btn-lg">Learn more</a>
+            </p>
+        </div>
+    </div>
+
+    
+
+<div class="container py-4">
+  <div class="row g-4 justify-content-center">
+    <div class="col-md-4">
+      <div class="image-card">
+        <img src="./Images/Nav1.jpg" style="height: 200px;" alt="Nav1">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="image-card">
+        <img src="./Images/Nav2.jpg" style="height: 200px;" alt="Nav2">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="image-card">
+        <img src="./Images/Nav3.jpg" style="height: 200px;" alt="Nav3">
+      </div>
+    </div>
+  </div>
+</div>
+
+   
+
+<div class="container"  >
+    <div class="row" style="margin-top: 10px; gap: 2px;" >
+        <div class="col-lg-10" >
+            <h3>Updated News</h3>
+
+            
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-lg-4">
+                         <img src="./Images/Nav3.jpg" style="height: 200px;" alt="Nav3">
+                    </div>
+                    <div class="col-lg-5">
+                        <h3 style="margin-top: 0;" >Title</h3>
+                        <p class="text-justify" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis praesentium porro pariatur, quod animi tempore consequatur modi alias corporis deserunt similique vel, inventore suscipit velit aspernatur, harum reiciendis maiores sint.</p>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;" >
+                    
+                      <div class="col-lg-5">
+                        <h3 style="margin-top: 0;" >Title</h3>
+                        <p class="text-justify" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis praesentium porro pariatur, quod animi tempore consequatur modi alias corporis deserunt similique vel, inventore suscipit velit aspernatur, harum reiciendis maiores sint.</p>
+                    </div>
+                    <div class="col-lg-4">
+                         <img src="./Images/Nav3.jpg" style="height: 200px;" alt="Nav3">
+                    </div>
+                  
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="col-lg-2" >
+            <h3>Options</h3>
+            <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+        </div>
+    </div>
+</div>
+
+   
+
+    
+  </body>
+</html>

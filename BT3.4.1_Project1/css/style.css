@@ -6,3 +6,13 @@
   font-weight: 800;
   font-size: x-large;
 }
+
+.NavEnd {
+  font-weight: 700;
+  color: white;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
