@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <a
+        href=""
+        class="btn btn-success"
+        title="This is a Tip Message"
+        style="margin-top: 500px"
+        data-toggle="tooltip"
+        data-placement="bottom
+        "
+        title="Top"
+        >Hover for tooltip</a
+      >
+    </div>
+
+    <!-- JQuarry -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Tooltip Initakize -->
+    <script>
+      jQuery(document).ready(function () {
+        jQuery('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </body>
+</html>
